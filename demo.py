@@ -36,7 +36,7 @@ def data():
         company=data.get("company", ""), # 认证公司
         page=data.get("page", 1), # 页数
         pagesize=data.get("pagesize", 10), # 页大小
-        key=data.get("key", "") # 0.zone key
+        key="" # 0.zone key
     )
     try:
         data = Main().getData(request_data, request_type=1)      
@@ -52,7 +52,7 @@ def aggs():
         title=data.get("title", ""),
         title_type=data.get("title_type", ""),
         company=data.get("company", ""),
-        key=data.get("key", "")
+        key=""
     )
     try:
         data = Main().getData(request_data)
