@@ -8,7 +8,7 @@ app = Flask(__name__)
 
 
 class Config:
-    key = "d85c3b273e7ff415a9f8ab9942bd5bca"
+    key = ""
 
 
 class Main:
